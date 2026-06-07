@@ -58,6 +58,7 @@ services:
   spark:
     image: apache/spark:3.5.1
     container_name: spark
+    command: tail -f /dev/null
     depends_on:
       - kafka
     ports:
