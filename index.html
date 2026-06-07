@@ -1,41 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CDC Financial Ledger</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>CDC Financial Ledger</h1>
+    <header>
+        <h1>CDC Financial Ledger</h1>
+        <p>Real-Time Financial Transaction Analytics Pipeline</p>
+    </header>
 
-<h3>Real-Time Financial Transaction Analytics Pipeline</h3>
+    <section class="card">
+        <h2>Project Overview</h2>
+        <p>
+            CDC Financial Ledger is a real-time financial transaction analytics
+            platform built using PostgreSQL, Debezium CDC, Apache Kafka,
+            Apache Spark, Delta Lake, Docker, and Power BI.
+        </p>
+    </section>
 
-<img src="docs/architecture.png" width="900">
+    <section class="card">
+        <h2>Technology Stack</h2>
+        <div class="tech-grid">
+            <div>PostgreSQL</div>
+            <div>Debezium CDC</div>
+            <div>Apache Kafka</div>
+            <div>Apache Spark</div>
+            <div>Delta Lake</div>
+            <div>Docker</div>
+            <div>Power BI</div>
+            <div>Python</div>
+        </div>
+    </section>
 
-<h2>Technology Stack</h2>
+    <section class="card">
+        <h2>Project Architecture</h2>
 
-<ul>
-    <li>PostgreSQL</li>
-    <li>Debezium CDC</li>
-    <li>Apache Kafka</li>
-    <li>Apache Spark</li>
-    <li>Delta Lake</li>
-    <li>Power BI</li>
-    <li>Docker</li>
-</ul>
+        <img src="docs/architecture.png"
+             alt="Architecture Diagram"
+             class="image">
 
-<h2>Project Features</h2>
+        <div class="flow">
+            PostgreSQL →
+            Debezium CDC →
+            Apache Kafka →
+            Apache Spark →
+            Delta Lake →
+            Power BI
+        </div>
+    </section>
 
-<ul>
-    <li>Real-Time Change Data Capture</li>
-    <li>Kafka Event Streaming</li>
-    <li>Financial Transaction Analytics</li>
-    <li>Power BI Dashboard</li>
-    <li>Chaos Engineering Tests</li>
-</ul>
+    <section class="card">
+        <h2>Project Statistics</h2>
 
-<h2>Dashboard</h2>
+        <div class="stats">
 
-<img src="docs/images/dashboard-overview.png" width="900">
+            <div class="stat-box">
+                <h3>10,000+</h3>
+                <p>Transactions</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>₹512M</h3>
+                <p>Transaction Volume</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>74%</h3>
+                <p>Success Rate</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>26%</h3>
+                <p>Failure Rate</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Dashboard Overview</h2>
+
+        <img src="docs/images/dashboard-overview.png"
+             alt="Dashboard Overview"
+             class="image">
+    </section>
+
+    <section class="card">
+        <h2>Analytics Dashboard</h2>
+
+        <img src="docs/images/dashboard-charts.png"
+             alt="Dashboard Charts"
+             class="image">
+    </section>
+
+    <section class="card">
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Real-Time Change Data Capture (CDC)</li>
+            <li>Apache Kafka Event Streaming</li>
+            <li>Spark-Based Data Processing</li>
+            <li>Power BI Business Intelligence Dashboard</li>
+            <li>Dockerized Architecture</li>
+            <li>Chaos Engineering Testing</li>
+            <li>Scalable Data Engineering Pipeline</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>GitHub Repository</h2>
+
+        <a class="btn"
+           href="https://github.com/preethi-beri/cdc-financial-ledger"
+           target="_blank">
+           View Source Code
+        </a>
+    </section>
+
+    <footer>
+        <p>
+            Built by Preethi Beri | Computer Science & Data Science
+        </p>
+    </footer>
 
 </body>
 </html>
