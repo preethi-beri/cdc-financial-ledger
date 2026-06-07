@@ -1,0 +1,14 @@
+{
+  "name": "fintech-postgres-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.hostname": "postgres",
+    "database.port": "5432",
+    "database.user": "postgres",
+    "database.password": "postgres",
+    "database.dbname": "fintech",
+    "topic.prefix": "fintech",
+    "plugin.name": "pgoutput",
+    "table.include.list": "public.transactions"
+  }
+}
